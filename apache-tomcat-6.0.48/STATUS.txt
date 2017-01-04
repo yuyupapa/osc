@@ -1,0 +1,49 @@
+================================================================================
+  Licensed to the Apache Software Foundation (ASF) under one or more
+  contributor license agreements.  See the NOTICE file distributed with
+  this work for additional information regarding copyright ownership.
+  The ASF licenses this file to You under the Apache License, Version 2.0
+  (the "License"); you may not use this file except in compliance with
+  the License.  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+================================================================================
+
+                         =================================
+                         Apache Tomcat 6.0 Patch Proposals
+                         =================================
+
+
+RELEASE SHOWSTOPPERS:
+
+None
+
+
+PATCHES PROPOSED TO BACKPORT:
+  [ New proposals should be added at the end of the list ]
+
+None. Tomcat 6 is CTR (Commit-Then-Review) since 2015-11-02.
+  
+PATCHES/ISSUES THAT ARE STALLED:
+
+* Fix https://issues.apache.org/bugzilla/show_bug.cgi?id=44312
+  Log an error if there is a conflict between Host and Alias names.
+  Improve host management methods in Mapper to avoid occasionally removing
+  a wrong host. Check that host management operations are performed on
+  the host and not on an alias.
+  1) https://issues.apache.org/bugzilla/attachment.cgi?id=31744
+  2) http://svn.apache.org/r1608653
+  3) http://svn.apache.org/r1608833
+  4) TestMapper changes from http://svn.apache.org/r1608831
+  +1: kkolinko, remm, schultz
+  -1:
+   kkolinko: Good for occasional review, but as backporting r1608833 won't
+   be trivial I'd have to update the patch.
+   schultz: r1608833 is good, but it does not look like it is absolutely
+   required to fix BZ 44312.

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config date="1483516281738" transient="false">
+	<site updateable="true" url="platform:/base/" enabled="true" policy="USER-EXCLUDE">
+		<feature id="org.eclipse.e4.rcp" version="1.4.1.v20160212-1350" url="features/org.eclipse.e4.rcp_1.4.1.v20160212-1350/">
+		</feature>
+		<feature id="org.eclipse.emf.ecore" version="2.11.2.v20160208-0816" url="features/org.eclipse.emf.ecore_2.11.2.v20160208-0816/">
+		</feature>
+		<feature id="scouter.client.feature" version="1.0.0.201701040750" url="features/scouter.client.feature_1.0.0.201701040750/">
+		</feature>
+		<feature id="org.eclipse.emf.common" version="2.11.1.v20160208-0816" url="features/org.eclipse.emf.common_2.11.1.v20160208-0816/">
+		</feature>
+		<feature id="org.eclipse.rcp" version="4.5.2.v20160212-1500" url="features/org.eclipse.rcp_4.5.2.v20160212-1500/">
+		</feature>
+	</site>
+</config>

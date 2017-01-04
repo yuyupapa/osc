@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='2'>
+  <unit id='scouter.client.feature.feature.group' version='1.0.0.201701040750' singleton='false'>
+    <update id='scouter.client.feature.feature.group' range='[0.0.0,1.0.0.201701040750)' severity='0'/>
+    <properties size='8'>
+      <property name='org.eclipse.equinox.p2.name' value='Scouter Feature'/>
+      <property name='org.eclipse.equinox.p2.description' value='[Enter Feature Description here.]'/>
+      <property name='org.eclipse.equinox.p2.description.url' value='http://www.example.com/description'/>
+      <property name='org.eclipse.equinox.p2.provider' value='Scouter Project'/>
+      <property name='org.eclipse.equinox.p2.type.group' value='true'/>
+      <property name='maven-groupId' value='scouter.client'/>
+      <property name='maven-artifactId' value='scouter.client.feature'/>
+      <property name='maven-version' value='1.0.0-SNAPSHOT'/>
+    </properties>
+    <provides size='1'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='scouter.client.feature.feature.group' version='1.0.0.201701040750'/>
+    </provides>
+    <requires size='13'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='javax.servlet' range='[3.1.0.v201410161800,3.1.0.v201410161800]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.compare.core' range='[3.5.500.v20150505-1058,3.5.500.v20150505-1058]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.draw2d' range='[3.10.1.201508170204,3.10.1.201508170204]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.jface.text' range='[3.10.0.v20150603-1752,3.10.0.v20150603-1752]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.text' range='[3.5.400.v20150505-1044,3.5.400.v20150505-1044]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ui.workbench.texteditor' range='[3.9.100.v20141023-1946,3.9.100.v20141023-1946]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.zest.core' range='[1.5.201.201508170204,1.5.201.201508170204]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.zest.layouts' range='[1.1.200.201508170204,1.1.200.201508170204]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ui.console' range='[3.6.100.v20150822-1912,3.6.100.v20150822-1912]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.core.variables' range='[3.2.800.v20130819-1716,3.2.800.v20130819-1716]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='scouter.client' range='[1.0.0.201701040750,1.0.0.201701040750]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ui.themes' range='[1.1.1.v20151026-1355,1.1.1.v20151026-1355]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='scouter.client.feature.feature.jar' range='[1.0.0.201701040750,1.0.0.201701040750]'>
+        <filter>
+          (org.eclipse.update.install.features=true)
+        </filter>
+      </required>
+    </requires>
+    <filter>
+      (&amp;(|(osgi.arch=x86)(osgi.arch=x86_64))(|(osgi.os=linux)(osgi.os=macosx)(osgi.os=win32))(|(osgi.ws=cocoa)(osgi.ws=gtk)(osgi.ws=win32)))
+    </filter>
+    <touchpoint id='null' version='0.0.0'/>
+    <licenses size='1'>
+      <license uri='http://www.example.com/license' url='http://www.example.com/license'>
+        [Enter License Description here.]
+      </license>
+    </licenses>
+    <copyright uri='http://www.example.com/copyright' url='http://www.example.com/copyright'>
+      [Enter Copyright Description here.]
+    </copyright>
+  </unit>
+  <unit id='scouter.client.feature.feature.jar' version='1.0.0.201701040750'>
+    <properties size='7'>
+      <property name='org.eclipse.equinox.p2.name' value='Scouter Feature'/>
+      <property name='org.eclipse.equinox.p2.description' value='[Enter Feature Description here.]'/>
+      <property name='org.eclipse.equinox.p2.description.url' value='http://www.example.com/description'/>
+      <property name='org.eclipse.equinox.p2.provider' value='Scouter Project'/>
+      <property name='maven-groupId' value='scouter.client'/>
+      <property name='maven-artifactId' value='scouter.client.feature'/>
+      <property name='maven-version' value='1.0.0-SNAPSHOT'/>
+    </properties>
+    <provides size='3'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='scouter.client.feature.feature.jar' version='1.0.0.201701040750'/>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' version='1.0.0'/>
+      <provided namespace='org.eclipse.update.feature' name='scouter.client.feature' version='1.0.0.201701040750'/>
+    </provides>
+    <filter>
+      (org.eclipse.update.install.features=true)
+    </filter>
+    <artifacts size='1'>
+      <artifact classifier='org.eclipse.update.feature' id='scouter.client.feature' version='1.0.0.201701040750'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='zipped'>
+          true
+        </instruction>
+      </instructions>
+    </touchpointData>
+    <licenses size='1'>
+      <license uri='http://www.example.com/license' url='http://www.example.com/license'>
+        [Enter License Description here.]
+      </license>
+    </licenses>
+    <copyright uri='http://www.example.com/copyright' url='http://www.example.com/copyright'>
+      [Enter Copyright Description here.]
+    </copyright>
+  </unit>
+</units>

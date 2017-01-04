@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="scouter.client.feature"
+      label="Scouter Feature"
+      version="1.0.0.201701040750"
+      provider-name="Scouter Project"
+      os="linux,macosx,win32"
+      ws="cocoa,gtk,win32"
+      arch="x86,x86_64">
+
+   <description url="http://www.example.com/description">
+      [Enter Feature Description here.]
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      [Enter Copyright Description here.]
+   </copyright>
+
+   <license url="http://www.example.com/license">
+      [Enter License Description here.]
+   </license>
+
+   <plugin
+         id="javax.servlet"
+         download-size="102"
+         install-size="202"
+         version="3.1.0.v201410161800"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.compare.core"
+         download-size="62"
+         install-size="116"
+         version="3.5.500.v20150505-1058"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.draw2d"
+         download-size="567"
+         install-size="1119"
+         version="3.10.1.201508170204"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jface.text"
+         download-size="992"
+         install-size="2080"
+         version="3.10.0.v20150603-1752"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.text"
+         download-size="247"
+         install-size="486"
+         version="3.5.400.v20150505-1044"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ui.workbench.texteditor"
+         download-size="573"
+         install-size="1254"
+         version="3.9.100.v20141023-1946"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.zest.core"
+         download-size="145"
+         install-size="292"
+         version="1.5.201.201508170204"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.zest.layouts"
+         download-size="130"
+         install-size="251"
+         version="1.1.200.201508170204"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ui.console"
+         download-size="186"
+         install-size="348"
+         version="3.6.100.v20150822-1912"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.core.variables"
+         download-size="34"
+         install-size="63"
+         version="3.2.800.v20130819-1716"
+         unpack="false"/>
+
+   <plugin
+         id="scouter.client"
+         download-size="6228"
+         install-size="9236"
+         version="1.0.0.201701040750"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ui.themes"
+         download-size="45"
+         install-size="128"
+         version="1.1.1.v20151026-1355"/>
+
+</feature>

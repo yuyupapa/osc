@@ -1,0 +1,149 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
+	<script type="text/javascript" src="js/netfunnel.js" charset="UTF-8"></script>
+<!--	<script type="text/javascript" src="js/test_skin.js" charset="UTF-8"></script> -->
+	<script>	
+	
+		function goAction(aid){
+			var dp = document.getElementById("debug_print");
+			var frm = document.ftest;
+
+			//Netfunnel 자원 사용 요청
+			NetFunnel_Action({action_id:aid,use_mobile_ui:true},{
+				success:function(ev,ret){
+					var msg = "success:"
+						+",code="+ret.code
+						+",key="+ret.data.key
+						+",ip="+ret.data.ip
+						+",port="+ret.data.port
+						+",nnext="+ret.data.nnext
+						+",nwait="+ret.data.nwait
+						+",tps="+ret.data.tps
+						+",ttl="+ret.data.ttl;
+					dp.innerHTML += "<br>"+msg;
+				},
+				continued:function(ev,ret){
+					var msg = "continued:"
+						+",code="+ret.code
+						+",key="+ret.data.key
+						+",ip="+ret.data.ip
+						+",port="+ret.data.port
+						+",nnext="+ret.data.nnext
+						+",nwait="+ret.data.nwait
+						+",tps="+ret.data.tps
+						+",ttl="+ret.data.ttl;
+					dp.innerHTML += "<br>"+msg;
+				},
+				stop:function(ev,ret){
+					var msg = "stopped";
+					dp.innerHTML += "<br>"+msg;
+				},
+				error:function(ev,ret){
+					var msg = "error:"
+							+",code="+ret.code
+							+",msg="+ret.data.msg;
+					dp.innerHTML += "<br>"+msg;
+				},
+				bypass:function(ev,ret){
+					var msg = "bypass:"
+						+",code="+ret.code
+						+",key="+ret.data.key
+						+",ip="+ret.data.ip
+						+",port="+ret.data.port
+						+",nnext="+ret.data.nnext
+						+",nwait="+ret.data.nwait
+						+",tps="+ret.data.tps
+						+",ttl="+ret.data.ttl;
+					dp.innerHTML += "<br>"+msg;
+				},
+				block:function(ev,ret){
+					var msg = "block:"
+						+",code="+ret.code
+						+",key="+ret.data.key
+						+",ip="+ret.data.ip
+						+",port="+ret.data.port
+						+",nnext="+ret.data.nnext
+						+",nwait="+ret.data.nwait
+						+",tps="+ret.data.tps
+						+",ttl="+ret.data.ttl;
+					dp.innerHTML += "<br>"+msg;
+				},
+				ipblock:function(ev,ret){
+					var msg = "ipblock:"
+							+",code="+ret.code
+							+",msg="+ret.data.msg;
+					dp.innerHTML += "<br>"+msg;
+				},
+				expressnumber:function(ev,ret){
+					var msg = "express_number:"
+						+",code="+ret.code
+						+",key="+ret.data.key
+						+",ip="+ret.data.ip
+						+",port="+ret.data.port
+						+",nnext="+ret.data.nnext
+						+",nwait="+ret.data.nwait
+						+",tps="+ret.data.tps
+						+",ttl="+ret.data.ttl;
+					dp.innerHTML += "<br>"+msg;
+				}
+			});
+		}
+
+		//Netfunnel form submit 적용
+		function formSubmit(){
+			var frm = document.ftest;
+			NetFunnel_Action({},frm);
+			//frm.submit();
+		}
+
+		
+		function goComplete(){
+			var dp = document.getElementById("debug_print");
+			var frm = document.ftest;
+
+			//Netfunnel 명시적 완료처리
+			NetFunnel_Complete( {},function(ev,ret){ dp.innerHTML += "<br> complete:"+ret.code+", msg="+ret.data.msg; } );
+		}
+
+		function goClear(){
+			var dp = document.getElementById("debug_print");
+			dp.innerHTML = "";
+		}
+		
+
+
+	</script>
+</head>
+<body>
+	<h1>NetFUNNEL2 JS Test</h1>
+	<form action="main.html" method="post" id="ftest" name="ftest">
+		<input type="button" value="1. index_click" onclick="goAction('index')">
+		<input type="button" value="2. debug_click" onclick="goAction('debug')">
+		<input type="button" value="3. bypass_click" onclick="goAction('bypass')">
+		<input type="button" value="4. block_click" onclick="goAction('block')">
+		<input type="button" value="5. load_click" onclick="goAction('load')">
+		<input type="button" value="6. Complete" onclick="goComplete()">
+		<input type="button" value="Clear" onclick="goClear()">
+
+		<br>
+		<!-- link에 Netfunnel 적용하는 예 -->
+		<a href="AutoCompleteTrue.html" onclick="NetFunnel_Action({},'AutoCompleteTrue.html');return false;">auto complete(true) 페이지 이동(링크 적용)</a>
+		<br>
+		<a href="AutoCompleteFalse.html" onclick="NetFunnel_Action({},'AutoCompleteFalse.html');return false;">auto complete(false) 페이지 이동(링크 적용)</a>
+
+
+		<br><br>
+		ID: <input type="text" name="memberID" id="memberID" value="ID" readonly="readonly"><br>
+		비밀번호: <input type="password" name="memberPW" id="memberPW" value="PW" readonly="readonly">
+		<br><br>
+		<input type="button"  onclick="formSubmit()" value="로그인">
+
+
+		<div id="debug_print" style="width:100%;height:800px;overflow:hidden;font-size:10px">
+		</div>
+
+	</form>
+</body>
+</html>

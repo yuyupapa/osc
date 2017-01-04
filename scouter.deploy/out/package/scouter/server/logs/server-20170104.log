@@ -1,0 +1,222 @@
+20170104 17:24:39 Scouter Server Version 0.4.22 20170104
+  ____                  _            
+ / ___|  ___ ___  _   _| |_ ___ _ __ 
+ \___ \ / __/   \| | | | __/ _ \ '__|
+  ___) | (_| (+) | |_| | ||  __/ |   
+ |____/ \___\___/ \__,_|\__\___|_|                                      
+ Open Source S/W Performance Monitoring  
+ Scouter version 0.4.22 20170104
+ 
+20170104 17:24:39 Load Account Group File
+20170104 17:24:39 Load Account File
+20170104 17:24:39 Load Account Group File
+20170104 17:24:39 udp listen 0.0.0.0:6100
+20170104 17:24:39 	udp_host=0.0.0.0
+20170104 17:24:39 	udp_port=6100
+20170104 17:24:39 	udp_buffer=65535
+20170104 17:24:39 	udp_so_rcvbuf=4194304
+20170104 17:24:39 Load Account File
+20170104 17:24:39 	tcp_port=6100
+20170104 17:24:39 	cp_agent_so_timeout=60000
+20170104 17:24:39 	cp_client_so_timeout=8000
+20170104 17:24:44 PLUG-IN : scouter.server.plugin.IAlert loaded #x1nbapuo
+20170104 17:24:44 PLUG-IN : scouter.server.plugin.ICounter loaded #xu6mnpl
+20170104 17:24:44 PLUG-IN : scouter.server.plugin.IObject loaded #xs09dlm
+20170104 17:24:44 PLUG-IN : scouter.server.plugin.IXLog loaded #xnjfkg9
+20170104 17:24:44 PLUG-IN : scouter.server.plugin.IXLog loaded #x8aquo4
+20170104 17:24:44 PLUG-IN : scouter.server.plugin.IXLogProfile loaded #x7kfkb2
+20170104 17:24:44 PLUG-IN : scouter.server.plugin.ISummary loaded #xb7hr9s
+20170104 17:28:18 Scouter Server Version 0.4.22 20170104
+  ____                  _            
+ / ___|  ___ ___  _   _| |_ ___ _ __ 
+ \___ \ / __/   \| | | | __/ _ \ '__|
+  ___) | (_| (+) | |_| | ||  __/ |   
+ |____/ \___\___/ \__,_|\__\___|_|                                      
+ Open Source S/W Performance Monitoring  
+ Scouter version 0.4.22 20170104
+ 
+20170104 17:51:57 Scouter Server Version 0.4.22 20170104
+  ____                  _            
+ / ___|  ___ ___  _   _| |_ ___ _ __ 
+ \___ \ / __/   \| | | | __/ _ \ '__|
+  ___) | (_| (+) | |_| | ||  __/ |   
+ |____/ \___\___/ \__,_|\__\___|_|                                      
+ Open Source S/W Performance Monitoring  
+ Scouter version 0.4.22 20170104
+ 
+20170104 17:52:02 Load Account Group File
+20170104 17:52:02 Load Account File
+20170104 17:52:02 Load Account Group File
+20170104 17:52:02 Load Account File
+20170104 17:52:03 udp listen 0.0.0.0:6100
+20170104 17:52:03 	udp_host=0.0.0.0
+20170104 17:52:03 	udp_port=6100
+20170104 17:52:03 	udp_buffer=65535
+20170104 17:52:03 	udp_so_rcvbuf=4194304
+20170104 17:52:04 	tcp_port=6100
+20170104 17:52:04 	cp_agent_so_timeout=60000
+20170104 17:52:04 	cp_client_so_timeout=8000
+20170104 17:52:11 PLUG-IN : scouter.server.plugin.IAlert loaded #x14csip
+20170104 17:52:11 PLUG-IN : scouter.server.plugin.ICounter loaded #xlrofvh
+20170104 17:52:11 PLUG-IN : scouter.server.plugin.IObject loaded #xe1jo7v
+20170104 17:52:11 PLUG-IN : scouter.server.plugin.IXLog loaded #x1rqi41v
+20170104 17:52:11 PLUG-IN : scouter.server.plugin.IXLog loaded #x7jletn
+20170104 17:52:11 PLUG-IN : scouter.server.plugin.IXLogProfile loaded #xk5ltpk
+20170104 17:52:11 PLUG-IN : scouter.server.plugin.ISummary loaded #x1lhepl9
+20170104 17:58:06 Scouter Server Version 0.4.22 20170104
+  ____                  _            
+ / ___|  ___ ___  _   _| |_ ___ _ __ 
+ \___ \ / __/   \| | | | __/ _ \ '__|
+  ___) | (_| (+) | |_| | ||  __/ |   
+ |____/ \___\___/ \__,_|\__\___|_|                                      
+ Open Source S/W Performance Monitoring  
+ Scouter version 0.4.22 20170104
+ 
+20170104 17:58:06 Load Account Group File
+20170104 17:58:06 Load Account File
+20170104 17:58:06 Load Account Group File
+20170104 17:58:06 udp listen 0.0.0.0:6100
+20170104 17:58:06 	udp_host=0.0.0.0
+20170104 17:58:06 	udp_port=6100
+20170104 17:58:06 	udp_buffer=65535
+20170104 17:58:06 	udp_so_rcvbuf=4194304
+20170104 17:58:06 Load Account File
+20170104 17:58:06 	tcp_port=6100
+20170104 17:58:06 	cp_agent_so_timeout=60000
+20170104 17:58:06 	cp_client_so_timeout=8000
+20170104 17:58:08 [S104] New OBJECT  objType=windows objHash=xcbvnd objName=/JHY-VM addr=127.0.0.1 0.0.0 20150101 alive 2017-01-04 17:58:08.198
+20170104 17:58:11 PLUG-IN : scouter.server.plugin.IAlert loaded #x1mp8ets
+20170104 17:58:11 PLUG-IN : scouter.server.plugin.ICounter loaded #xaga5oo
+20170104 17:58:11 PLUG-IN : scouter.server.plugin.IObject loaded #xnj8gl3
+20170104 17:58:11 PLUG-IN : scouter.server.plugin.IXLog loaded #x139cto5
+20170104 17:58:11 PLUG-IN : scouter.server.plugin.IXLog loaded #x31fnbp
+20170104 17:58:11 PLUG-IN : scouter.server.plugin.IXLogProfile loaded #xqtehej
+20170104 17:58:11 PLUG-IN : scouter.server.plugin.ISummary loaded #x18bi1jr
+20170104 18:11:46 [S105] Update OBJECT  objType=windows objHash=xcbvnd objName=/JHY-VM addr=127.0.0.1 0.4.22 20161110 alive 2017-01-04 18:11:46.014
+20170104 18:13:51 [S105] Update OBJECT  objType=windows objHash=xcbvnd objName=/JHY-VM addr=127.0.0.1 0.0.0 20150101 alive 2017-01-04 18:13:51.489
+20170104 18:26:49 Scouter Server Version 0.4.22 20170104
+  ____                  _            
+ / ___|  ___ ___  _   _| |_ ___ _ __ 
+ \___ \ / __/   \| | | | __/ _ \ '__|
+  ___) | (_| (+) | |_| | ||  __/ |   
+ |____/ \___\___/ \__,_|\__\___|_|                                      
+ Open Source S/W Performance Monitoring  
+ Scouter version 0.4.22 20170104
+ 
+20170104 18:26:49 Load Account Group File
+20170104 18:26:49 Load Account File
+20170104 18:26:50 Load Account Group File
+20170104 18:26:50 udp listen 0.0.0.0:6100
+20170104 18:26:50 	udp_host=0.0.0.0
+20170104 18:26:50 	udp_port=6100
+20170104 18:26:50 	udp_buffer=65535
+20170104 18:26:50 	udp_so_rcvbuf=4194304
+20170104 18:26:50 Load Account File
+20170104 18:26:50 	tcp_port=6100
+20170104 18:26:50 	cp_agent_so_timeout=60000
+20170104 18:26:50 	cp_client_so_timeout=8000
+20170104 18:26:55 PLUG-IN : scouter.server.plugin.IAlert loaded #x2hi6j9
+20170104 18:26:55 PLUG-IN : scouter.server.plugin.ICounter loaded #xu7v353
+20170104 18:26:55 PLUG-IN : scouter.server.plugin.IObject loaded #x1jouvkr
+20170104 18:26:55 PLUG-IN : scouter.server.plugin.IXLog loaded #x80uffh
+20170104 18:26:55 PLUG-IN : scouter.server.plugin.IXLog loaded #x1b8409o
+20170104 18:26:55 PLUG-IN : scouter.server.plugin.IXLogProfile loaded #xgqjlru
+20170104 18:26:55 PLUG-IN : scouter.server.plugin.ISummary loaded #x9mcvt2
+20170104 20:36:39 Scouter Server Version 0.4.22 20170104
+  ____                  _            
+ / ___|  ___ ___  _   _| |_ ___ _ __ 
+ \___ \ / __/   \| | | | __/ _ \ '__|
+  ___) | (_| (+) | |_| | ||  __/ |   
+ |____/ \___\___/ \__,_|\__\___|_|                                      
+ Open Source S/W Performance Monitoring  
+ Scouter version 0.4.22 20170104
+ 
+20170104 20:36:40 Load Account Group File
+20170104 20:36:40 Load Account File
+20170104 20:36:40 Load Account Group File
+20170104 20:36:40 udp listen 0.0.0.0:6100
+20170104 20:36:40 	udp_host=0.0.0.0
+20170104 20:36:40 	udp_port=6100
+20170104 20:36:40 	udp_buffer=65535
+20170104 20:36:40 	udp_so_rcvbuf=4194304
+20170104 20:36:40 Load Account File
+20170104 20:36:40 	tcp_port=6100
+20170104 20:36:40 	cp_agent_so_timeout=60000
+20170104 20:36:40 	cp_client_so_timeout=8000
+20170104 20:36:45 PLUG-IN : scouter.server.plugin.IAlert loaded #x3h7dem
+20170104 20:36:45 PLUG-IN : scouter.server.plugin.ICounter loaded #xuf5ob1
+20170104 20:36:45 PLUG-IN : scouter.server.plugin.IObject loaded #x1fhkmt2
+20170104 20:36:45 PLUG-IN : scouter.server.plugin.IXLog loaded #x13jgdhq
+20170104 20:36:45 PLUG-IN : scouter.server.plugin.IXLog loaded #xhj1icc
+20170104 20:36:45 PLUG-IN : scouter.server.plugin.IXLogProfile loaded #x1ck036f
+20170104 20:36:45 PLUG-IN : scouter.server.plugin.ISummary loaded #x1ug11bj
+20170104 20:37:23 [S104] New OBJECT  objType=tomcat objHash=zmhc497 objName=/JHY-VM/tomcat1 addr=127.0.0.1 0.4.22 20170104 alive 2017-01-04 20:37:23.255
+20170104 20:37:23 [S145] GeoIP db file is not readable : D:\000_workspaces\osc\scouter.deploy\out\package\scouter\server\conf\GeoLiteCity.dat
+20170104 20:37:25 [S104] New OBJECT  objType=reqproc objHash=xkd9t9v objName=/JHY-VM/tomcat1/jk-8009 addr=127.0.0.1 alive 2017-01-04 20:37:25.22
+20170104 20:37:25 [S104] New OBJECT  objType=reqproc objHash=x1kqhtf4 objName=/JHY-VM/tomcat1/http-8080 addr=127.0.0.1 alive 2017-01-04 20:37:25.22
+20170104 21:12:46 Scouter Server Version 0.4.22 20170104
+  ____                  _            
+ / ___|  ___ ___  _   _| |_ ___ _ __ 
+ \___ \ / __/   \| | | | __/ _ \ '__|
+  ___) | (_| (+) | |_| | ||  __/ |   
+ |____/ \___\___/ \__,_|\__\___|_|                                      
+ Open Source S/W Performance Monitoring  
+ Scouter version 0.4.22 20170104
+ 
+20170104 21:12:46 Load Account Group File
+20170104 21:12:46 Load Account File
+20170104 21:12:46 Load Account Group File
+20170104 21:12:46 udp listen 0.0.0.0:6100
+20170104 21:12:46 	udp_host=0.0.0.0
+20170104 21:12:46 	udp_port=6100
+20170104 21:12:46 	udp_buffer=65535
+20170104 21:12:46 	udp_so_rcvbuf=4194304
+20170104 21:12:46 Load Account File
+20170104 21:12:46 	tcp_port=6100
+20170104 21:12:46 	cp_agent_so_timeout=60000
+20170104 21:12:46 	cp_client_so_timeout=8000
+20170104 21:12:47 [S104] New OBJECT  objType=tomcat objHash=zmhc497 objName=/JHY-VM/tomcat1 addr=127.0.0.1 0.4.22 20170104 alive 2017-01-04 21:12:47.567
+20170104 21:12:47 [S104] New OBJECT  objType=reqproc objHash=xkd9t9v objName=/JHY-VM/tomcat1/jk-8009 addr=127.0.0.1 alive 2017-01-04 21:12:47.571
+20170104 21:12:47 [S104] New OBJECT  objType=reqproc objHash=x1kqhtf4 objName=/JHY-VM/tomcat1/http-8080 addr=127.0.0.1 alive 2017-01-04 21:12:47.571
+20170104 21:12:51 PLUG-IN : scouter.server.plugin.IAlert loaded #x1esuajf
+20170104 21:12:51 PLUG-IN : scouter.server.plugin.ICounter loaded #x1dinjdh
+20170104 21:12:51 PLUG-IN : scouter.server.plugin.IObject loaded #x1iqifn5
+20170104 21:12:51 PLUG-IN : scouter.server.plugin.IXLog loaded #xucmapm
+20170104 21:12:51 PLUG-IN : scouter.server.plugin.IXLog loaded #x15t7r4j
+20170104 21:12:51 PLUG-IN : scouter.server.plugin.IXLogProfile loaded #xkh92qo
+20170104 21:12:51 PLUG-IN : scouter.server.plugin.ISummary loaded #xrlkb65
+20170104 21:13:16 [S501] Cannot find a tcp agent for /JHY-VM/tomcat1/http-8080
+20170104 21:13:16 [S501] Cannot find a tcp agent for /JHY-VM/tomcat1/jk-8009
+20170104 21:13:24 [S145] GeoIP db file is not readable : D:\000_workspaces\osc\scouter.deploy\out\package\scouter\server\conf\GeoLiteCity.dat
+20170104 22:42:41 Scouter Server Version 0.4.22 20170104
+  ____                  _            
+ / ___|  ___ ___  _   _| |_ ___ _ __ 
+ \___ \ / __/   \| | | | __/ _ \ '__|
+  ___) | (_| (+) | |_| | ||  __/ |   
+ |____/ \___\___/ \__,_|\__\___|_|                                      
+ Open Source S/W Performance Monitoring  
+ Scouter version 0.4.22 20170104
+ 
+20170104 22:42:42 Load Account Group File
+20170104 22:42:42 Load Account File
+20170104 22:42:42 Load Account Group File
+20170104 22:42:42 udp listen 0.0.0.0:6100
+20170104 22:42:42 	udp_host=0.0.0.0
+20170104 22:42:42 	udp_port=6100
+20170104 22:42:42 	udp_buffer=65535
+20170104 22:42:42 	udp_so_rcvbuf=4194304
+20170104 22:42:42 Load Account File
+20170104 22:42:42 	tcp_port=6100
+20170104 22:42:42 	cp_agent_so_timeout=60000
+20170104 22:42:42 	cp_client_so_timeout=8000
+20170104 22:42:47 PLUG-IN : scouter.server.plugin.IAlert loaded #xotpaij
+20170104 22:42:47 PLUG-IN : scouter.server.plugin.ICounter loaded #xikan9s
+20170104 22:42:47 PLUG-IN : scouter.server.plugin.IObject loaded #x14nvqml
+20170104 22:42:47 PLUG-IN : scouter.server.plugin.IXLog loaded #x1i4nkh7
+20170104 22:42:47 PLUG-IN : scouter.server.plugin.IXLog loaded #xvv9c3o
+20170104 22:42:47 PLUG-IN : scouter.server.plugin.IXLogProfile loaded #x1a8udf9
+20170104 22:42:47 PLUG-IN : scouter.server.plugin.ISummary loaded #x2lr4qq
+20170104 22:43:22 [S104] New OBJECT  objType=tomcat objHash=zmhc497 objName=/JHY-VM/tomcat1 addr=127.0.0.1 0.4.22 20170104 alive 2017-01-04 22:43:22.29
+20170104 22:43:22 [S145] GeoIP db file is not readable : D:\000_workspaces\osc\scouter.deploy\out\package\scouter\server\conf\GeoLiteCity.dat
+20170104 22:43:34 [S104] New OBJECT  objType=reqproc objHash=xkd9t9v objName=/JHY-VM/tomcat1/jk-8009 addr=127.0.0.1 alive 2017-01-04 22:43:34.302
+20170104 22:43:34 [S104] New OBJECT  objType=reqproc objHash=x1kqhtf4 objName=/JHY-VM/tomcat1/http-8080 addr=127.0.0.1 alive 2017-01-04 22:43:34.302

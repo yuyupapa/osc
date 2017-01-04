@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript" src="../js/netfunnel.js" charset="UTF-8"></script>
+<title>Netfunnel SAMPLE</title>
+</head>
+<body>
+<!-- 
+<a href="01_sleep.jsp?sleepMiliSec=1000" onClick="return NetFunnel_Action({action_id:'sleep'},this.href);">WAS SLEEP</a>
+<a href="http://localhost:8080/netfunnel/sample/01_sleep.jsp?sleepMiliSec=1000" onClick="return NetFunnel_Action({action_id:'sleep'},this.href);">WAS SLEEP</a>
+<a href="01_sleep.jsp?sleepMiliSec=1000" onClick="return NetFunnel_Action({action_id:'sleep'},'01_sleep.jsp?sleepMiliSec=1000');">WAS SLEEP</a>
+<a href="01_sleep.jsp?sleepMiliSec=1000" onClick="NetFunnel_Action({action_id:'sleep'},this.href); return false;">WAS SLEEP</a>
+<a href="01_sleep.jsp?sleepMiliSec=1000" onClick="return NetFunnel_Action({action_id:'sleep'},'01_sleep.jsp?sleepMiliSec=1000');">WAS SLEEP</a>
+<a href="01_sleep.jsp?sleepMiliSec=1000">WAS SLEEP</a>
+-->
+<a href="01_sleep.jsp?sleepMiliSec=1000" onclick="NetFunnel_Action({'action_id':'sleep'}, this.href);return false;">WAS SLEEP</a>
+</body>
+</html>
